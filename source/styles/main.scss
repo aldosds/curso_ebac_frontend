@@ -1,0 +1,15 @@
+@use 'variaveis';
+
+body {
+    background-color: variaveis.$corPrincipal;
+}
+
+h1 {
+    font-weight: bold;
+    color: variaveis.$corH1;
+}
+
+img {
+    max-width: 500px;
+    border-radius: 0 150px 0 150px;
+}
